@@ -17,5 +17,8 @@ suites:
     vm_hostname: default-<%= n %>.example.com
     network:
       - ['private_network', {ip: '33.33.33.<%= n %>'}]
+    customize:
+      memory: 2048
+      cpus: 2
   attributes:
 <% end %>
