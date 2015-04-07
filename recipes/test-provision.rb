@@ -2,7 +2,7 @@ require 'chef/provisioning/ssh_driver'
 
 with_driver 'ssh'
 
-machine "sshone" do
+machine "ssh-test" do
   # action :destroy
   action [:ready, :setup, :converge]
   machine_options :transport_options => {
