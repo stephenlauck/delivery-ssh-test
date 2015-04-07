@@ -23,3 +23,4 @@ vendor/
 .chef/local-mode-cache
 .chef/trusted_certs
 .chef/delivery-cluster-data
+.chef/provisioning
